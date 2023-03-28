@@ -1,8 +1,12 @@
 * {text-align: center;
 }
 
-.self-photo {
-  border-radius: 50%;
+.banner-image {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 128px;
+  
 }
 
 .container {
@@ -10,7 +14,9 @@ width= 700px;
 }
 
 .icon-photo{
-
+background-color: black;
+border-radius: 50%;
+size: 5px;
 }
 
 
