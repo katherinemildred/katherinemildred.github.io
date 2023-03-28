@@ -1,9 +1,19 @@
-* {text-align: center;}
+* {text-align: center;
+}
 
 .self-photo {
   border-radius: 50%;
+}
+
+.container {
+width= 700px;
+}
+
+.icon-photo{
 
 }
+
+
 .resource {
   border: 1px solid black;
   border-radius: 5px;
@@ -12,7 +22,12 @@
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 20px;
  padding-top: 0.25em;
- padding-bottom: 0.25em
-  
+ padding-bottom: 0.25em;
+ width: 50%;
+ display: inline-block;
+ color: darkblue
+}
 
+.resource hover{
+background-color: aliceblue;
 }
